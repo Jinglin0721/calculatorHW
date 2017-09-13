@@ -68,11 +68,11 @@ class ViewController: UIViewController {
             }
             
             else if (sender.tag == 19 ) {  //snegative sign
-                label.text = "-"
+                label.text = "-" + String(sender.tag-1)
             }
             
             else if (sender.tag == 20 ) {  //decimal place
-                label.text = label.text! + "."
+                label.text = label.text! + "." + String(sender.tag-1)
             }
 
             operation = sender.tag
