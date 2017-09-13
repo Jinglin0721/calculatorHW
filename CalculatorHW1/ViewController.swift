@@ -103,7 +103,12 @@ class ViewController: UIViewController {
                 result.text = String(previousNumber - numberDis)
             }
             
-           // ?? operating the ()
+            else if operation == 19
+            {
+                numberDis = -numberDis
+            }
+            
+           
         }
         
         // operating reset
